@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  background: #EFF;
+  text-align: center;
+}
+
+#c {
+  border: 1px solid black;
+  background: #FFF;
+  cursor: none;
+}
+
+#box {
+  width: 502px;
+  height: 502px;
+  position: relative;
+  margin: 40px auto;
+}
