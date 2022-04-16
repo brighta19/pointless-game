@@ -7,8 +7,9 @@ var server = require('http').createServer(app);
 app.use('/', express.static(__dirname + '/client'));
 
 // Start the Server
-server.listen(process.env.PORT || 8000);
-console.log('Server started. (' + __dirname + ')\n');
+var port = process.env.PORT || 8000;
+server.listen(port);
+console.log('Server started on port ' + port);
 
 
 // Start Connection Between Client and Server

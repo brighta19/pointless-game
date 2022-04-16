@@ -1,16 +1,16 @@
 {
   "name": "connex",
   "version": "1.0.0",
-  "description": "",
+  "description": " A simple pointless game trying out socket.io",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.13.4",
-    "socket.io": "^1.4.6"
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "author": "Bright <coolman9451@gmail.com>",
+  "author": "Bright Amoateng <bright.amoateng150@gmail.com>",
   "license": "ISC"
 }
