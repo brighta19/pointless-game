@@ -4,8 +4,8 @@
   "description": " A simple pointless game trying out socket.io",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.18.2",
-    "socket.io": "^4.5.4"
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
   },
   "scripts": {
     "start": "node app.js"
